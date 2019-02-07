@@ -1,0 +1,38 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "User interface for some things space, not all things space.",
+  "author": "Sarah Sefcik",
+  "scripts": {
+    "server": "node app.js",
+    "client": "cd client && npm start",
+    "startboth": "concurrently \"nodemon app.js\" \"npm run client\"",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "~1.18.2",
+    "concurrently": "^3.5.1",
+    "cookie-parser": "~1.4.3",
+    "express": "~4.15.5",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.2.2",
+    "mysql2": "^1.5.3",
+    "nodemon": "^1.17.3",
+    "react-router-dom": "^4.3.1",
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.0.0",
+    "uuid": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarahSefcik/Project3.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarahSefcik/Project3/issues"
+  },
+  "homepage": "https://github.com/SarahSefcik/Project3#readme"
+}
